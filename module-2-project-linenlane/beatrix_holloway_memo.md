@@ -25,7 +25,8 @@ Subject line B beat A on purchases: 2.10% of recipients bought versus 1.85% (28,
 
 ## Data quality notes
 
-There were many issues that affected the analysi. Auto-conversion for SKUs (JAN-15, OCT-7, MAR-12) had been converted to dates, breaking category lookups. Return reasons and marketing spend channels had variants caused by white space or capitalize issues; I cleaned the data and refreshed the tables. There was also hidden rows on sales_2024. Pn sales_2024 there was category results that ended up as #N/A
+There were many issues that affected the analysi. Auto-conversion for SKUs (JAN-15, OCT-7, MAR-12) had been converted to dates, breaking category lookups. Return reasons and marketing spend channels had variants caused by white space or capitalize issues; I cleaned the data and refreshed the tables. There was also hidden rows on sales_2024. In sales_2024 there was category results that ended up as #N/A
+
 ## Limitations and next steps
 
 This covers 2024 only, so it can't separate seasonality from growth, and it has no margin or channel-level results. A follow-up with cleaned 2023 data, channel-tagged orders and unit costs would show year-over-year growth, which channels earn their budget, and which categories actually make money. 
